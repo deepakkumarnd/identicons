@@ -1,21 +1,14 @@
 # Identicon
 
-**TODO: Add description**
+An [identicon](https://en.wikipedia.org/wiki/Identicon) is a visual representation of a hash value.
 
-## Installation
+**Add description**
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+A program written in elixir to generate identicons of size 250 X 250 from strings.
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+**Usage**
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
-
+$ iex -S mix
+iex> Identicon.generate("hello")
+$ open hello.png
+```
